@@ -100,7 +100,7 @@
 .product-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Adjust this property as needed */
+  justify-content: space-between; 
 }
 
 .product-item {
@@ -111,7 +111,9 @@
   border-radius: 5px;
   text-align: center;
 }
-
+.container#about{
+  background-image: url(../public/lighttheme.png);
+}
 .product-item img {
   max-width: 100%;
   height: auto;

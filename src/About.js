@@ -1,9 +1,8 @@
 import React from 'react';
-import aboutImage from './img/tt3.jpeg'; // Adjust the file path based on the actual location of the image
 
 const About = () => {
   return (
-    <div className="container my-5">
+    <div className="container my-3" id='about'>
       <div className="row">
         {/* Content on the left */}
         <div className="col-md-6">
@@ -24,10 +23,9 @@ const About = () => {
             </p>
           </div>
         </div>
-        {/* Image on the right */}
         <div className="col-md-6">
           <img
-            src={aboutImage} // Use the imported image variable
+            src="tt3.jpeg" 
             alt="About Us"
             className="img-fluid"
           />
